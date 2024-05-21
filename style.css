@@ -1,0 +1,100 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+header{
+    background-image:linear-gradient(#1f86f4,#a9d1fc);
+    height: 100vh;
+    
+}
+
+.hero{
+    transform: translateY(250px);
+    color: white;
+    height: 100vh;
+}
+.hero .container h1{
+    font-size: 70px;
+}
+section .container i:hover{
+    background-image:linear-gradient(#1f86f4,#a9d1fc);
+    color: white; 
+}
+
+section .container h1:hover{
+    color: #1f86f4; 
+}
+main{
+    height: 100vh;
+    background-color: rgb(237, 246, 255);
+}
+main .container{
+    transform: translateY(80px);
+}
+article{
+    transform: translateY(30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+aside{
+    background: rgb(237, 246, 255);
+    height: 80vh;
+}
+aside .container{
+    transform: translateY(100px);
+}
+.side .card1:hover{
+    background-image:linear-gradient(#1f86f4,#a9d1fc) ;
+    color: white;
+}
+.box1 .container{
+    transform: translateY(150px);
+}
+.box2{
+    background-image:linear-gradient(#1f86f4,#a9d1fc);
+    color: white;
+    height: 50vh;
+}
+.box2 .container{
+    transform: translateY(150px);
+}
+footer{
+    height: 60vh;
+    background-color: black;
+    color: white;
+    
+}
+footer .container{
+    transform: translateY(60px);
+}
+footer p{
+    color: gray;
+}
+footer span{
+    color: rgb(37, 127, 245);
+}
+@media (max-width:990px){
+    .hero img{
+        display: none;
+        
+    }
+    article h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:660px){
+    .hero .container h1{
+        font-size: 30px;
+    }
+    main .container img{
+        display: none;
+    }
+    article h1{
+        font-size: 20px;
+    }
+    .box1 .container img{
+        display: none;
+    }
+}
